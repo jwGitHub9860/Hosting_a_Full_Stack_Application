@@ -4,17 +4,19 @@
 
 ---
 
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+## Goal
 
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
-
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
-
-The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+This project aims to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers.
 
 # Udagram
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+### Description
+
+This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application. The aws console will start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. The ```package.json``` scripts will be modified and hard coded secrets will be replaced with environment variables in the code.
+
+After the initial setup, the aws services will be interacted with and manually deploy the application a first time. This will increase knowledge in CI/CD by gradually increasing understanding in all the moving parts in the application through interaction with the CLI.
+
+The CircleCi account will be connected to the Github account to deploy the app. The ```config.yml``` file will make the process reproducible in CircleCi and ensure the process will automatically execute when code is pushed on the main Github branch.
 
 
 
@@ -32,6 +34,16 @@ This application is provided to you as an alternative starter project if you do 
 - A S3 bucket for hosting uploaded pictures.
 
 ```
+
+
+### Creation Date
+
+> 7/4/2026
+
+### Project Status
+
+> Active
+
 
 ### Installation
 
@@ -57,6 +69,8 @@ There are no Unit test on the back-end
 
 Unit tests are using the Jasmine Framework.
 
+<a href="https://jasmine.github.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg" alt="jasmine" width="40" height="40"/> </a>
+
 ### End to End Tests:
 
 The e2e tests are using Protractor and Jasmine.
@@ -64,8 +78,73 @@ The e2e tests are using Protractor and Jasmine.
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
+
+  <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>
+
 - [Node](https://nodejs.org) - Javascript Runtime
+
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img width="59" height="49" alt="node_js_logo" src="https://github.com/user-attachments/assets/bc05c6f4-2ccb-41ab-a499-d0cdee52540f" /> </a>
+
 - [Express](https://expressjs.com/) - Javascript API Framework
+
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img width="114" height="40" alt="express_logo" src="https://github.com/user-attachments/assets/922b7eb3-f9a5-45d8-add7-e73f07cff732" /> </a>
+
+
+## Challenges Faced During Project
+
+
+
+## Udacity Mentors Who Have Answered Questions In Knowledge To Help With Project
+- 
+
+
+## Languages
+
+**JavaScript**
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+
+**TypeScript**
+
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
+
+
+## Tools
+
+**Visual Studio Code** - The application software where the project is edited.
+
+<p align="left"> <img width="43" height="46" alt="VSCode_logo" src="https://github.com/user-attachments/assets/0f8d15c4-276a-46ef-92cd-80a2f1958e76" /> </p>
+
+**AWS** - Services for running the application.
+
+<p align="left"> <img width="49" height="42" alt="aws_logo" src="https://github.com/user-attachments/assets/565f86c2-27d8-491a-8e3b-8d4e976325d0" /> </p>
+
+**CircleCI** - The cloud/based CI/CD platform that automates the application software development process.
+
+<p align="left"> <img width="53" height="53" alt="circleci_logo" src="https://github.com/user-attachments/assets/bc7ea443-5ebe-4413-bc2e-11407ad20609" /> </p>
+
+**GitHub Desktop** - The application software that gives access to the project from _GitHub_ and allows it to be edited in _Visual Studio Code_.
+
+<p align="left"> <img width="46" height="46" alt="GitHub_Desktop_logo" src="https://github.com/user-attachments/assets/bbd2a72d-0953-499e-ab28-e55b11171b83" /> </p>
+
+**ChatGPT** - The application software that answers specific questions of why project has specific problems or why project failed to achieve intended results.
+
+<p align="left"> <img width="49" height="42" alt="ChatGPT_logo" src="https://github.com/user-attachments/assets/34fd410d-3e92-4fc6-8dc7-1be521a8d2a6" /> </p>
+
+
+## Credits
+###### References used while making project
+
+“AWS Logo PNG Transparent & SVG Vector.” _Freebie Supply_, freebiesupply.com/logos/aws-logo/. Accessed 4 July 2026. 
+
+“Circleci Logo PNG Transparent & SVG Vector.” _Freebie Supply_, freebiesupply.com/logos/circleci-logo/. Accessed 4 July 2026.
+
+Dhadhazi. “Nd0067-C4-Deployment-Process-Project-Starter.” _GitHub_, Udacity, 2023, github.com/udacity/nd0067-c4-deployment-process-project-starter. Accessed 4 Jun. 2026.
+
+“GitHub Profile README Generator.” _GitHub Profile Readme Generator | GitHub Profile Readme Generator_, rahuldkjain.github.io/gh-profile-readme-generator/. Accessed 4 Jun. 2026.
+
+“MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 4 Jun. 2026.
+
 
 ## License
 
